@@ -46,10 +46,10 @@ const ProductList = () => {
                 <input type="checkbox" id="low-stock" name="low-stock" value="stock" />
                 <label for="low-stock" style={{marginLeft:"-8rem"}}> Low stock items</label>
                 <select name="language" id="language">
-                    <option value="javascript">JavaScript</option>
-                    <option value="python">Python</option>
-                    <option value="c++">C++</option>
-                    <option value="java">Java</option>
+                    <option value="name">Name</option>
+                    <option value="price">Price</option>
+                    <option value="stock">Stock</option>
+                    
                 </select>
                 <Link to={`/inv/productmanagement`} style={{ textDecoration: 'none', color: 'black' }}>
                     <Add>New</Add>
