@@ -12,7 +12,6 @@ display: flex;
 const Right = styled.div`
 flex: 6;
 padding: 20px;
-
 `
 const FilterContainer = styled.div`
 display: flex;

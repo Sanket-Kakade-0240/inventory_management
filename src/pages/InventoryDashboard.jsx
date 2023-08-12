@@ -3,19 +3,16 @@ import Left from '../components/Left'
 import Navbar from '../components/Navbar'
 import styled from "styled-components";
 
-
 const Container = styled.div`
 padding: 0 30px 30px 30px ;
 display: flex;
 `
-
 const Right = styled.div`
 flex: 6;
 padding: 20px;
 display: flex;
 flex-wrap: wrap;
 `
-
 
 const InventoryDashboard = ({ inventory }) => {
     const totalStock = inventory.reduce((acc, item) => acc + item.stock, 0);
@@ -25,7 +22,6 @@ const InventoryDashboard = ({ inventory }) => {
   return (
     <div>
         <Navbar/>
-        
         <Container>
             <Left/>
             <Right>

@@ -16,13 +16,11 @@ const App = () => {
   return (
     <Router>
       <Routes>
-      
       <Route path="/" element={<InventoryDashboard inventory={inventory}/>} />
       <Route path="/inv/departments" element={<Departments/>} />
-      <Route path="/inv/productlist" element={<ProductList inventory={inventory}/>} />
+      <Route path="/inv/productlist" element={<ProductList />} />
       <Route path="/inv/productmanagement" element={<ProductManagement onProductAdded={handleProductAdded} /> } />
       </Routes>
-
     </Router>
   );
 };

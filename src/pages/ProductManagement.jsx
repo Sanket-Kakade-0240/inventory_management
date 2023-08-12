@@ -1,23 +1,18 @@
-
 import styled from "styled-components";
 import React, { useState } from 'react';
-// import { inventoryData } from '../data';
 import Navbar from "../components/Navbar";
 import Left from "../components/Left";
-
 
 const Container = styled.div`
 padding: 0 30px 30px 30px ;
 display: flex;
 `
-
 const Right = styled.div`
 flex: 6;
 padding: 20px;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
-
 `
 const Title = styled.h2`
 `
